@@ -1,0 +1,7 @@
+<svg class="background">
+  <image href="Close-Crop Plain - R-fitbit.png"/>
+  <text id="myLabel" />
+  <text id="steps" />
+  <text id="dayofweek" />
+  <text id="dayofmonth" />
+</svg>

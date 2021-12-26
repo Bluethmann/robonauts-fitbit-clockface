@@ -1,0 +1,43 @@
+.background {
+  viewport-fill: black;
+}
+
+#myLabel {
+  font-size: 96;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%-90;
+  fill: lightgray;
+}
+
+#dayofweek {
+  font-size: 42;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%-120;
+  y: 50%-20;
+  fill: lightgray;
+}
+
+#dayofmonth {
+  font-size: 42;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%+120;
+  y: 50%+20;
+  fill: lightgray;
+}
+
+#steps {
+  font-size: 96;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+150;
+  fill: lightgray;
+}
