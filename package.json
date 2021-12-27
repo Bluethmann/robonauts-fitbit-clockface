@@ -1,7 +1,11 @@
 {
+  "name": "robonauts clockface",
+  "version": "1.1.0",
+  "private": true,
+  "license": "UNLICENSED",
   "devDependencies": {
-    "@fitbit/sdk": "~6.0.2"
-	"@fitbit/sdk-cli": "^1.7.3"
+    "@fitbit/sdk": "~6.0.2",
+    "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
     "appUUID": "507cd5dd-d702-4ef2-8b4e-4a3ebef9a9f3",
@@ -22,5 +26,8 @@
       }
     },
     "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build"
   }
 }

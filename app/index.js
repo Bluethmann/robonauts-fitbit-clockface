@@ -64,7 +64,6 @@ clock.ontick = (evt) => {
     myLabel.text = `${hours}:${mins}`;
   }
   lastMin = minutes;
-  console.log(`${today.adjusted.steps} Steps`);
   steps.text = today.adjusted.steps;
 }
 
